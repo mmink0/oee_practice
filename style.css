@@ -1,0 +1,91 @@
+body {
+    width:100%;
+    overflow: hidden;
+    margin: 0 auto;
+    }
+
+
+.Header {
+    width: 100%;
+    text-align: center;
+    font-family: Cardo, serif;
+    display:flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.navi {
+    width:356px;   
+    text-align: right;
+    padding-top:20px;
+    padding-right: 20px;
+    margin:0;
+}
+a {
+    text-decoration: none;
+}
+.menu {
+    width:356px;
+    text-align: left;
+    margin:0;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: rgba(33, 33, 33, 0.5);
+}
+.navi p {
+    display: inline;
+    padding: 10px;
+    font-size: 18px;
+    color: rgba(33, 33, 33, 0.5);
+    margin:0;
+}
+.logo {
+    width:1751px;
+    padding: 20px 0;
+    text-align: center;
+    margin:0;
+}
+.navi img {
+    width:56.13px;
+    text-align: center;
+    margin:0 auto;
+}
+.main {
+    width:1400px;
+    margin: 0 auto;
+}
+.main img {
+    width: 100%;
+}
+.line {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 0 20px;
+}
+
+.line p {
+    padding: 0 20px;
+}
+span {
+    text-align: center;
+    padding:5px 10px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    border-color: lightgray;
+    font-size: 14px;
+}
+.btn {
+    margin: 20px auto;
+    text-align: center;
+    
+    
+}
+.btn .instagram{
+    color: white;
+    background-color: black;
+    border:none;
+}
+.footer {
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
+}
