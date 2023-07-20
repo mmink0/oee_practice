@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
 }
 .navi {
-    width:356px;   
+    width:25%;   
     text-align: right;
     padding-top:20px;
     padding-right: 20px;
@@ -99,7 +99,7 @@ span {
     margin: 40px 20px 0 auto;
 }
 
-@media (max-width:1024px)
+@media (max-width:1240px)
 {.body {width: 100%}
 .navi {
     width:20%;
@@ -109,6 +109,9 @@ span {
 }
 .navi p { display: block; margin:0;}
 .logo { width:60%;}
-.main { width:100%;}
-    
+
+.main img{ width:100%}
+.btn {
+    display: none;
+}    
 }
