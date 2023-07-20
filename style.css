@@ -89,3 +89,23 @@ span {
     text-align: center;
     padding: 20px;
 }
+
+.CS {
+  
+    float: right;
+    margin: 40px 20px 0 auto;
+}
+
+@media (max-width:800px)
+{.body {width: 100%}
+.navi {
+    width:20%;
+}
+.menu {
+    width:20%;
+}
+.navi p { display: block; margin:0;}
+.logo { width:60%;}
+.main { width:100%}
+    
+}
